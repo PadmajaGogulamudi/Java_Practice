@@ -31,14 +31,15 @@ public class Emloyee {
 
 	void show() {
 		totalSal();
-		System.out.println("emp number : " + empId);
-		System.out.println("Projects Completed : " + projectsCompleted);
-		System.out.println("Annual Salary : " + annualSalary);
+//		System.out.println("emp number : " + empId);
+//		System.out.println("Projects Completed : " + projectsCompleted);
+//		System.out.println("Annual Salary : " + annualSalary);
+		System.out.println("bonus :"+bonus);
 
 	}
 
 	public static void main(String[] args) {
-		Emloyee e1 = new Emloyee(1, 5, 10, 50000);
+		Emloyee e1 = new Emloyee(1, 21, 10, 50000);
 		e1.calcuBonus();
 		e1.show();
 
