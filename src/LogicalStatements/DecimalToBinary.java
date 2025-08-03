@@ -28,6 +28,7 @@ public class DecimalToBinary {
 			i++;
 			n/=2;
 			
+			
 		}
 		for(int j=i-1;j>=0;j--) {
 			System.out.print(arr[j]+" ");
