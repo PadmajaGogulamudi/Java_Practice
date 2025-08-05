@@ -14,7 +14,8 @@ public class DecimalToBinary {
 		printBinary(n);
 		System.out.println("\nwant to proceed for another number :");
 		s=sc.next();
-		}while(s.equalsIgnoreCase("y"));	
+		}while(s.equalsIgnoreCase("y"));
+		sc.close();
 
 	}
 
