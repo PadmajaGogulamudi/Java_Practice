@@ -8,6 +8,7 @@ class Aaa {
 	{
 		System.out.println("hello");
 	}
+	
 }
 
 class BlockDemo12 {
