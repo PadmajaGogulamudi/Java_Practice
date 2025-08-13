@@ -16,7 +16,7 @@ findEvenCount(n,m);
 findOddCount(n,m);
 System.out.println("even numbers count in given range "+n+" to "+m+"is : "+evenCount);
 System.out.println("odd numbers count in given range "+n+" to "+m+"is : "+oddCount);
-
+sc.close();
 	}
 
 	private static void findOddCount(int n, int m) {

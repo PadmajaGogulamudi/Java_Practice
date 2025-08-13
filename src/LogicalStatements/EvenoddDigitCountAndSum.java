@@ -23,7 +23,7 @@ public class EvenoddDigitCountAndSum {
 		}
 		System.out.println("even digit count : "+count+"\nSum of Odd digits : "+OddDigitSum);
 		
-		
+		sc.close();
 		
 	}
 

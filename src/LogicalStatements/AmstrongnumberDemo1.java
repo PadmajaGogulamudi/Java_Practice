@@ -15,7 +15,7 @@ public class AmstrongnumberDemo1 {
 			System.out.println("The given number is not an Amstrong");
 		
 			
-
+		sc.close();
 	}
 
 	private static boolean isAmstrong(int n) {
