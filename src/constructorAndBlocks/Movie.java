@@ -26,6 +26,7 @@ public class Movie {
 	}
 
 	void show() {
+		
 		System.out.println(Heroname + "\n" + Moviername + "\n" + budget);
 	}
 }

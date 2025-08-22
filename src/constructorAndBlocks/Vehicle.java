@@ -1,0 +1,10 @@
+package constructorAndBlocks;
+
+public class Vehicle {
+
+	public static void main(String[] args) {
+		System.out.println("main from vehicle class");
+
+	}
+
+}

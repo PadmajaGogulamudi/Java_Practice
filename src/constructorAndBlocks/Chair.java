@@ -29,22 +29,23 @@ public class Chair extends Thing {
 
 	Chair(String name, double price) {
 		super(name, price);
+		
 	}
 
 	public static void main(String[] args) {
 		Chair c = new Chair("Wood", 20000);
 		System.out.println(c.name);
 
-		System.out.println(c.count);
-
-		System.out.println(c.price);
-		System.out.println("***********************");
-		Chair c1 = new Chair();
-		System.out.println(c1.name);
-
-		System.out.println(c1.count);
-
-		System.out.println(c1.price);
+//		System.out.println(c.count);
+//
+//		System.out.println(c.price);
+//		System.out.println("***********************");
+//		Chair c1 = new Chair();
+//		System.out.println(c1.name);
+//
+//		System.out.println(c1.count);
+//
+//		System.out.println(c1.price);
 
 	}
 
