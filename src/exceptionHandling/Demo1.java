@@ -10,27 +10,34 @@ public class Demo1 {
 		Scanner sc = new Scanner(System.in);
 		
 		try {
-			System.out.println("enter a value : ");
-			int a = sc.nextInt();
-			System.out.println("enter b value : ");
-
-			int b = sc.nextInt();
-			System.out.println("enter c String  value : ");
-			String c = sc.next();
+//			System.out.println("enter a value : ");
+//			int a = sc.nextInt();
+//			System.out.println("enter b value : ");
+//
+//			int b = sc.nextInt();
+//			
 			
-			System.out.println(a/b);
+			System.out.println(10/0);
 		}
-		finally {
-			System.out.println("finally block!!!");
-		}
+		
 			
 //		}catch(Exception e) {
 //			System.out.println("hjhcbh");
 //			e.printStackTrace();
 //	}
-		//catch(ArithmeticException e) {
-//			e.printStackTrace();
-//		}
+		catch(ArithmeticException e) {
+			
+			
+			
+			e.printStackTrace();
+			System.out.println("------------------------");
+			System.out.println("toString : "+e.toString());
+			System.out.println("------------------------");
+			System.out.println("getMessage() : "+e.getMessage());
+			System.out.println("------------------------");
+			System.out.println("using e : "+e);
+			
+		}
 		System.out.println("ending!!!!!!!!!!!");
 
 	}
