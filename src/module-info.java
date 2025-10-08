@@ -6,4 +6,5 @@
  *
  */
 module VCube {
+	requires java.sql;
 }
