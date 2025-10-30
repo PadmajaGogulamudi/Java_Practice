@@ -24,7 +24,7 @@ public static void main(String[] args) {
 //		
 //	}
 	
-	Iterator itr=l.iterator();
+	Iterator<Employee> itr=l.iterator();
 	while(itr.hasNext()) {
 		Employee e=(Employee) itr.next();
 		

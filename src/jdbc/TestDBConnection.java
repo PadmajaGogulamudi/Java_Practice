@@ -32,10 +32,10 @@ public class TestDBConnection {
 
 			// Close connection
 			con.close();
-			System.out.println("✅ Connection closed.");
+			System.out.println(" Connection closed.");
 
 		} catch (Exception e) {
-			System.out.println("❌ Connection failed!");
+			System.out.println("Connection failed!");
 			e.printStackTrace();
 		}
 	}
