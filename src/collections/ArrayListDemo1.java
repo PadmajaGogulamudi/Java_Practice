@@ -39,7 +39,9 @@ public class ArrayListDemo1 {
 //		}
 		ListIterator<Integer> litr = al1.listIterator();
 		System.out.println("**************************");
+		
 		while (litr.hasNext()) {
+			
 			System.out.println(litr.next());
 		}
 
