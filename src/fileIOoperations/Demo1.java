@@ -19,7 +19,7 @@ public class Demo1 {
 //		pw.println(100);
 //		pw.print("hello world");
 //		pw.flush();
-		FileWriter fw = new FileWriter("C:\\Users\\padma\\Documents\\VyshwaSir\\FileIODemoFolder\\demo.txt");
+		FileWriter fw = new FileWriter("C:\\Users\\padma\\Documents\\VyshwaSir\\FileIODemoFolder\\demo1.xlsx");
 		BufferedWriter bw = new BufferedWriter(fw);
 		bw.write("hello world");
 		bw.write(120);
