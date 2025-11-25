@@ -33,7 +33,7 @@ public class ExamQuestion {
 
 
 		total = b + a;
-		System.out.println("b=" + b + "\na=" + a + "total=" + total);
+		System.out.println("b=" + b + "\na=" + a + "\ntotal=" + total);
 
 	}
 
