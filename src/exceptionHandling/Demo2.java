@@ -1,7 +1,7 @@
 package exceptionHandling;
 
-class myException extends RuntimeException {
-	myException(String msg){
+class myException extends Exception {
+	myException(String msg) {
 		super(msg);
 	}
 }
@@ -9,20 +9,23 @@ class myException extends RuntimeException {
 public class Demo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		try {
-			show();
-		} catch (Exception e) {
-			System.out.println("exception handled");
-		}
+//		try {
+//			show();
+//		} catch (Exception e) {
+//			System.out.println("exception handled");
+//		}
 
+		show();
 	}
 
 	private static void show() {
-		
+		try {
 			throw new myException("this is my own exception");
-		
-		
+		} catch (myException e) {
+			e.printStackTrace();
+		} finally {
+		}
+
 	}
 
 }
