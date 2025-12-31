@@ -1,4 +1,4 @@
-package collections.ListPractice;
+package com.collections.ListPractice;
 
 import java.util.Enumeration;
 import java.util.Vector;
