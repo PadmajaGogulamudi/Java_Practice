@@ -1,6 +1,6 @@
 package stringHandling;
 
-public class Findlargestandremovedupicates {
+public class Find_Largest_And_Remove_Dupicates {
 
 	public static void main(String[] args) {
 		String s1 = "i love java";

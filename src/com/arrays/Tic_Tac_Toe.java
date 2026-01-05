@@ -31,7 +31,7 @@ public class Tic_Tac_Toe {
 				}
 
 				box[r][c] = player;
-				if (iswin()) {
+				if (iswin()) { 
 					display();
 					System.out.println("Game Over, player " + player + " win's");
 					break;

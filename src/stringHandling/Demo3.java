@@ -3,7 +3,6 @@ package stringHandling;
 public class Demo3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s = "AS12DE1F25G5";
 		String s1="";
 		String num="";

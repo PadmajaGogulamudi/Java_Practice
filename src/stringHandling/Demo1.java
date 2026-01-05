@@ -2,7 +2,7 @@ package stringHandling;
 
 public class Demo1 {
 	public static void main(String[] args) {
-		String str1 = "aaa0bbb2c3";
+		String str1 = "aaa0bbb12c3";
 		String str2 = "";
 
 		for (int i = 0; i < str1.length(); i++) {

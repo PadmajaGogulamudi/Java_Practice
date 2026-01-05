@@ -3,7 +3,6 @@ package stringHandling;
 public class Find_first_non_repeating_Char {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s="Swiss".toLowerCase();
 		String s1="";
 		for(int i=0;i<s.length();i++) {

@@ -3,7 +3,6 @@ package stringHandling;
 public class Find_Single_repeated_char {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s="java";
 		String s1="";
 		for(int i=0;i<s.length();i++) {

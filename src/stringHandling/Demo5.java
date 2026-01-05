@@ -3,7 +3,6 @@ package stringHandling;
 public class Demo5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s = "hello world";
 		s = s.replaceAll(" ", "");
 		String s1 = "";
