@@ -5,6 +5,8 @@ public interface InterfaceDemo1 {
 	public abstract void add();
 	public default  void sums() {
 		System.out.println("hello from default inter");
+		secondPrivate();
+
 	}
 	public static void abc() {
 		System.out.println("hello from inter static");
@@ -20,7 +22,7 @@ public interface InterfaceDemo1 {
 
 	}
 	private static void secondPrivate() {
-		
+		System.out.println("runnig static private");
 	}
 	
 

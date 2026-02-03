@@ -1,6 +1,8 @@
 package stringHandling;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 //Given a string s and an integer k
@@ -17,32 +19,46 @@ public class SubStrings_with_Unique_k_chars {
 	public static void main(String[] args) {
 
 		String s = "pqpqs";
-        int k = 2;
+		int k = 2;
 
-        Set<String> result = new HashSet<>();
+		Map<String, Integer> map = new HashMap<>();
+		Set<String> set = new HashSet<>();
+		for (int i = 0; i < s.length(); i++) {
 
-        for (int i = 0; i < s.length(); i++) {
+			for (int j = i; j < s.length(); j++) {
+				String sub = s.substring(i, j + 1);
 
-            Set<Character> unique = new HashSet<>();
+				System.err.println(sub);
+				if (isValid(sub, k)) {
+					
+					if (!(set.add(sub)))
+						continue;
 
-            for (int j = i; j < s.length(); j++) {
+					
+				}
+			}
+		}
+		for (String s1 : set) {
+			System.out.println(s1.toString());
 
-                unique.add(s.charAt(j));
+		}
+		System.out.println(set.size());
 
-                if (unique.size() == k) {
-                    result.add(s.substring(i, j + 1));
-                }
-
-                if (unique.size() > k) {
-                    break;
-                }
-            }
-        }
-
-        for (String str : result) {
-            System.out.println(str);
-        }
-
-        System.out.println("Count = " + result.size());
 	}
+
+
+	private static boolean isValid(String sub, int k) {
+		int count = 0;
+		String s = "";
+		for (int i = 0; i < sub.length(); i++) {
+			if (s.indexOf(sub.charAt(i) + "") == -1) {
+				s += sub.charAt(i);
+				count++;
+			}
+		}
+		if (count == k)
+			return true;
+		return false;
+	}
+
 }
