@@ -1,7 +1,6 @@
 package com.java8features;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class First_non_repeat_char {
@@ -17,7 +16,7 @@ public class First_non_repeat_char {
 			list.add(k);
 		}
 		 
-		list.stream().filter(l->)
+	//	list.stream().filter(l->)
 		
 	}
 
