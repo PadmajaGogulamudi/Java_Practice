@@ -22,7 +22,7 @@ public class Day_9_streams {
 		list.stream().forEach(n->System.out.println(n));
 		System.out.println("--------------------");
 		List<Integer> numbers = List.of(1, 4, 3, 8, 6, 4, 7);
-		Function<Integer> 
+		//Function<Integer> 
 
 //		numbers.stream()
 //	       .map(list -> list.stream())
