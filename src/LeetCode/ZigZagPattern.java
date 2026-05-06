@@ -50,7 +50,7 @@ public class ZigZagPattern {
 		StringBuilder[] arr=new StringBuilder[n];
 		while(a<=s.length) {
 			for(int i=0;i<n;i++) {
-				arr[i]=arr[i]+
+				//arr[i]=arr[i]+
 			}
 			
 		}
